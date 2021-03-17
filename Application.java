@@ -29,4 +29,4 @@ public class Application {
 		tester1.setBugStatus(bug1, STATUS.CLOSED);
 		manager1.displayBugDetails(bug1);
 	}
-}
+} 
