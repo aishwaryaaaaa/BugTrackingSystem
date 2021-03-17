@@ -1,4 +1,4 @@
-
+ 
 public class Bug {
 //TODO: Add submittedOn property
 	private int bugID;
