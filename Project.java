@@ -30,7 +30,7 @@ public class Project {
 		return developerID;
 	}
 
-	public void setDeveloperID(int developerID) {
+	public void setDeveloperID(int developerID) { 
 		this.developerID = developerID;
 	}
 
