@@ -7,6 +7,10 @@ public class Manager extends Employee{
 	}
 	
 	public void assignBug(Bug bug, int developerID) {
+		if(developerID<1)
+		{ throw new IllegalArgumentException();
+		}
+		
 		bug.setDeveloperID(developerID);
 		bug.setStatus(STATUS.ASSIGNED);
 	}
@@ -19,4 +23,3 @@ public class Manager extends Employee{
 		
 	}
 }
- 
